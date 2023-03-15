@@ -4,4 +4,4 @@
 
 ___
 
-![meme_english](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F474777985687965378%2F&psig=AOvVaw3-BxAXASXvil-oop3jjeMi&ust=1678968176973000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCIi0u__x3f0CFQAAAAAdAAAAABAS)
+![meme_english](https://github.com/avolidaga/memes/blob/4c8e29bed7684fc42c4b8cf827ff171dba0cfc51/english(Expectation:Reality).png)
