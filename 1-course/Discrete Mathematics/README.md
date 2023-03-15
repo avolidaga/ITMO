@@ -1,4 +1,4 @@
 # Discrete Matematics
 
-Здесь собраны курсовые и 6 домашек по графам :triangular_ruler:
+Здесь собраны курсовые и домашки по графам :triangular_ruler:
 
