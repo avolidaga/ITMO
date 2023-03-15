@@ -58,3 +58,13 @@
 1.	ADDL М - Сложить AC (16 бит) и младший байт заданной ячейки памяти, результат поместить в М, установить признаки N/Z/V/C
 2.	Код операции - 9...
 3.	Тестовая программа должна начинаться с адреса 03DF16
+
+
+
+____
+
+Roar...
+
+https://sun9-34.userapi.com/impg/26vBiE482_IjQ608ivQjHqWO472kVvifkPu_9A/F7drukaFXBc.jpg?size=1280x960&quality=95&sign=5c9a53e3b4551046dac1eb6f9a0fe2e8&type=album![image](https://user-images.githubusercontent.com/127943609/225353614-4ad81013-1ee1-4fdd-80af-2c02ba3eb270.png)
+
+
