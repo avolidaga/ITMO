@@ -36,7 +36,9 @@
 
 //Извиняюсь я уже и это не помню( Чекайте код
 
+[тык на 6 лабу](https://github.com/avolidaga/lab6-programming.git)
 
+[тык на 7 лабу](https://github.com/avolidaga/lab7-programming.git)
 
 
 
