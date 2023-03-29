@@ -1,6 +1,6 @@
 # English
 
-Уровень английского на момент 2 курса у меня был - B1.1 Pre-Intermediate. Два файлика, которые обеспечат тебе более легкую жизнь)
+Уровень английского на момент 2 курса у меня был - B1.1 Pre-Intermediate. Файлик, который обеспечит тебе более легкую жизнь), ну и по стандарту ссылочка на - [Pre-Intermediate B1. Student's Book](https://drive.google.com/file/d/18VFyASs99yj9DW88a_WRTlQokyoN1Q_l/view?usp=sharing)
 
 ___
 
