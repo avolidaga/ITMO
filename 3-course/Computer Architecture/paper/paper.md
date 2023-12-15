@@ -6,7 +6,9 @@
 Взглянем на [катастрофу AT&T(1990)](https://youtu.be/HD5ukgbBXAM). Одна банальная ошибка в цикле привела к серьезным финансовым потерям для многомиллиардной компании. Поэтому миром была разработана одна весьма полезная инновация - статический анализатор кода.
 
 В этой статье мы погрузимся в сравнительный анализ двух ведущих инструментов статического анализа для C++: 
-<center> Cppcheck и Clang-Tidy </center>
+<center> 
+  Cppcheck и Clang-Tidy 
+</center>
 
 
 ![versus](https://github.com/avolidaga/ITMO/blob/main/3-course/Computer%20Architecture/paper/versus.png)
