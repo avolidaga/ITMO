@@ -154,13 +154,11 @@ Cppcheck выявляет, что ресурс создан в main и не ос
 Теперь применим clang-tidy к коду с использованием следующей команды:
 
 ```bash
-Copy code
 clang-tidy example.cpp
 ````
 Clang-tidy также обнаружит проблему и выдаст предупреждение:
 
 ```kotlin
-Copy code
 example.cpp:25:5: warning: Potential leak of memory pointed to by 'resource' [clang-analyzer-cplusplus.NewDeleteLeaks]
     return 0;
     ^
