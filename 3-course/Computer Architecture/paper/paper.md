@@ -137,7 +137,41 @@ int main() {
 }
 ```
 
+Сначала применим cppcheck к коду с помощью следующей команды в терминале:
 
+```bash
+cppcheck example.cpp
+```
+
+Cppcheck выдаст предупреждение о потенциальной утечке памяти:
+
+```
+[example.cpp:25]: (error) Memory leak: resource
+```
+
+Cppcheck выявляет, что ресурс создан в main и не освобожден перед завершением программы, что приводит к утечке памяти.
+
+Теперь применим clang-tidy к коду с использованием следующей команды:
+
+```bash
+Copy code
+clang-tidy example.cpp
+````
+Clang-tidy также обнаружит проблему и выдаст предупреждение:
+
+```kotlin
+Copy code
+example.cpp:25:5: warning: Potential leak of memory pointed to by 'resource' [clang-analyzer-cplusplus.NewDeleteLeaks]
+    return 0;
+    ^
+example.cpp:19:19: note: Memory is allocated
+    Resource* resource = new Resource();
+                  ^
+example.cpp:25:5: note: Memory leak
+    return 0;
+    ^
+```
+Clang-tidy также указывает на потенциальную утечку памяти и предостерегает разработчика об этой проблеме.
 
 
 ## Заключение
