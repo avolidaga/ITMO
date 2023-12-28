@@ -160,7 +160,7 @@ clang-tidy example.cpp
 ````
 Clang-tidy также обнаружит проблему и выдаст предупреждение:
 
-```
+```kotlin
 example.cpp:25:5: warning: Potential leak of memory pointed to by 'resource' [clang-analyzer-cplusplus.NewDeleteLeaks]
     return 0;
     ^
@@ -182,7 +182,7 @@ Cppcheck может быть легко интегрирован с различ
 
 Пример использования в конфигурации CI/CD:
 
-```
+```yaml
 name: Cppcheck Analysis
 
 on:
@@ -212,7 +212,7 @@ Clang-Tidy также обеспечивает возможности интег
 
 
 Пример использования в конфигурации CI/CD:
-```
+```yaml
 stages:
   - build
 
