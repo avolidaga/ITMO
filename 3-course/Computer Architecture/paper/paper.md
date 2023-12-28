@@ -141,13 +141,13 @@ int main() {
 
 Сначала применим cppcheck к коду с помощью следующей команды в терминале:
 
-```
+```terminal
 cppcheck example.cpp
 ```
 
 Cppcheck выдаст предупреждение о потенциальной утечке памяти:
 
-```
+```kotlin
 [example.cpp:25]: (error) Memory leak: resource
 ```
 
@@ -155,7 +155,7 @@ Cppcheck выявляет, что ресурс создан в main и не ос
 
 Теперь применим clang-tidy к коду с использованием следующей команды:
 
-```
+```bash
 clang-tidy example.cpp
 ````
 Clang-tidy также обнаружит проблему и выдаст предупреждение:
